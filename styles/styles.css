@@ -53,6 +53,7 @@ main {
 }
 
 aside {
+    position: relative;
     width: 20rem;
     text-align: var(--text-align)
 }

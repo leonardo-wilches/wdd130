@@ -5,6 +5,12 @@
     --accent2-color: #EA7317;
 }
 
+main {
+    margin: 2rem auto;
+    font-family: 'Roboto', Arial, sans-serif;
+    max-width: 1500px;
+}
+
 .hero {
     position: relative;
     width: 100%;
@@ -19,7 +25,7 @@
 
 .hero h1 {
     position: absolute;
-    top: 0.5%;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%);
     font-family: 'Comfortaa', sans-serif;
@@ -32,8 +38,8 @@
 
 .hero article {
     position: absolute;
-    bottom: 10%;
-    background: var(--secunday-color);
+    bottom: 20%;
+    background: var(--accent1-color);
     opacity: 0.9;
     padding: 0.1rem;
 }
@@ -52,7 +58,7 @@ header {
 }
 
 header img {
-    width: 300px;
+    width: 250px;
 }
 
 nav {
@@ -85,10 +91,12 @@ p {
     text-align: center;
 }
 
-main {
-    margin: 2rem auto;
-    font-family: 'Roboto', Arial, sans-serif;
-    max-width: 1200px;
+section img {
+    display: inline;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 2rem 0.5rem;
+    width: 280px;
 }
 
 footer {
@@ -102,14 +110,6 @@ footer img{
     width: 50px;
     justify-content: space-between;
     padding: 2rem 0.1rem;
-}
-
-section img {
-    display: inline;
-    margin: 0 auto;
-    justify-content: space-between;
-    padding: 2rem 0.5rem;
-    width: 220px;
 }
 
 .sociallinks {

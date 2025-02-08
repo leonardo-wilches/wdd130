@@ -73,10 +73,6 @@ section img {
     width: 220px;
 }
 
-.hero img {
-    background-image: var(--secunday-color);
-}
-
 .hero {
 	bottom: 25px;
 	left: 15px;

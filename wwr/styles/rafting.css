@@ -36,15 +36,12 @@
     background: var(--secunday-color);
     opacity: 0.9;
     padding: 0.1rem;
-    text-align: left;
-    width: 100;
 }
 
 .hero article img {
     width: 200px;
     float: right;
-    margin-left: 0.5rem;
-
+    margin-left: 1rem;
 }
 
 header {

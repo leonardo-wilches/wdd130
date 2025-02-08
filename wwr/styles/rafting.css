@@ -1,8 +1,50 @@
-:root{
+:root {
     --primary-color: #2364AA;
     --secunday-color: #73BFB8;
     --accent1-color: #FEC601;
     --accent2-color: #EA7317;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-image: url('../images-wwr/rafting-image-wwr.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 0.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Comfortaa', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 0.5rem 1rem;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10%;
+    background: var(--secunday-color);
+    opacity: 0.9;
+    padding: 0.1rem;
+    text-align: left;
+    width: 100;
+}
+
+.hero article img {
+    width: 200px;
+    float: right;
+    margin-left: 0.5rem;
+
 }
 
 header {
@@ -71,17 +113,6 @@ section img {
     justify-content: space-between;
     padding: 2rem 0.5rem;
     width: 220px;
-}
-
-.hero {
-	bottom: 25px;
-	left: 15px;
-	background: var(--secunday-color);
-	border: 1px solid #000;
-	padding: 0.65rem;
-	opacity: 0.9;
-	border-bottom: 1px solid #999;
-	margin-bottom: 0.3rem;
 }
 
 .sociallinks {

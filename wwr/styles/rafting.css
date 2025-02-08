@@ -6,56 +6,79 @@
 }
 
 main {
-    margin: 2rem auto;
-    font-family: 'Roboto', Arial, sans-serif;
-    max-width: 1500px;
+    margin: auto;
+    max-width: 80vw;
+}
+
+h1, h2 {
+    font-family: 'Comfortaa', sans-serif;
+    color: var(--primary-color);
+    font-size: 40px;
+    max-width: 80vw;
+    padding: 1rem;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+    font-size: 20px;
+    max-width: 80vw;
+    padding: 1rem;
+    text-align: center;
 }
 
 .hero {
     position: relative;
+    width: 80vw;
+    height: auto;
+}
+
+.hero img {
+    display: block;
     width: 100%;
     height: auto;
-    background-image: url('../images-wwr/rafting-image-wwr.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .hero h1 {
     position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    top: 10px;
     font-family: 'Comfortaa', sans-serif;
     color: #fff;
     font-size: 40px;
     text-align: center;
     background: rgba(0, 0, 0, 0.6);
-    padding: 0.5rem 1rem;
+    padding: 1rem 0;
 }
 
 .hero article {
     position: absolute;
-    bottom: 20%;
+    width: 80%;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
     background: var(--accent1-color);
     opacity: 0.9;
-    padding: 0.1rem;
+    padding: 1rem;
 }
 
 .hero article img {
     width: 200px;
     float: right;
-    margin-left: 1rem;
+    margin-left: 3rem;
 }
 
 header {
     display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 10rem;
+    padding: 1rem 10%;
+    align-items: center;
 }
+
 
 header img {
     width: 250px;
@@ -75,24 +98,8 @@ nav a {
     text-decoration: none;
 }
 
-h1, h2 {
-    font-family: 'Comfortaa', sans-serif;
-    color: var(--primary-color);
-    font-size: 40px;
-    padding: 1rem;
-    text-align: center;
-}
-
-p {
-    font-family: 'Roboto', sans-serif;
-    color: var(--primary-color);
-    font-size: 20px;
-    padding: 1rem;
-    text-align: center;
-}
-
 section img {
-    display: inline;
+    display: flex;
     margin: 0 auto;
     justify-content: space-between;
     padding: 2rem 0.5rem;
@@ -114,5 +121,5 @@ footer img{
 
 .sociallinks {
     text-decoration: none;
-    text-align: left;
+    text-align: center;
   }

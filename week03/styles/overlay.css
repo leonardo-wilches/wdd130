@@ -27,7 +27,6 @@ h2 {
 }
 
 .stats {
-	position: absolute;
 	bottom: 25px;
 	left: 15px;
 	background: radial-gradient(#eee, #11aa11);
@@ -35,9 +34,7 @@ h2 {
 	padding: 0.65rem;
 	box-shadow: 0 0 30px #111;
 	opacity: 0.9;
-}
 
-h3 {
 	text-shadow: 0 0 15px #333;
 	border-bottom: 1px solid #999;
 	margin-bottom: 0.3rem;

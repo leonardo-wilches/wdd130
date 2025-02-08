@@ -49,18 +49,18 @@ p {
     font-size: 40px;
     text-align: center;
     background: rgba(0, 0, 0, 0.6);
-    padding: 1rem 0;
+    padding: 0.5rem 0;
 }
 
 .hero article {
     position: absolute;
-    width: 80%;
+    width: 90%;
     bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
     background: var(--accent1-color);
     opacity: 0.9;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .hero article img {
@@ -71,14 +71,12 @@ p {
 
 header {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     width: 80vw;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
     padding: 1rem 10%;
-    align-items: center;
 }
-
 
 header img {
     width: 250px;
@@ -122,4 +120,4 @@ footer img{
 .sociallinks {
     text-decoration: none;
     text-align: center;
-  }
+}

@@ -42,12 +42,20 @@ main {
 }
 
 footer{
-    text-decoration: none;
     text-align: center;
 }
 
-.hero img{
-    display: block;
-    width: 100%;
+section {
+    text-align: center;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
     height: auto;
+    color: white;
+}
+
+.sociallinks a {
+    text-decoration: none;
 }

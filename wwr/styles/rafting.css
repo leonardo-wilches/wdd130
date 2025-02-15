@@ -166,7 +166,6 @@ figure {
     position: absolute;
     right: 1rem;
     display: flex;
-    grid-template-columns: repeat(1px);
     gap: 1rem;
     margin: 0;
 }
@@ -186,7 +185,6 @@ figure {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: auto;
 }
 
 .image-gallery figure {

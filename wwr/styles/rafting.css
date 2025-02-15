@@ -17,9 +17,8 @@ h1, h2 {
     font-family: 'Comfortaa', sans-serif;
     color: #000000;
     font-size: 40px;
-    max-width: 1000px;
-    padding: 1rem;
-    text-align: left;
+    max-width: 1500px;
+    text-align: center;
 }
 
 p {
@@ -57,7 +56,7 @@ p {
     font-size: 40px;
     text-align: center;
     background: rgba(0, 0, 0, 0.6);
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .hero article {
@@ -115,7 +114,7 @@ nav a {
 	padding: 0;
     flex: 1 1 auto;
     flex-wrap: wrap;
-    max-width: 1000px;
+    max-width: 1500px;
 }
 
 .history {
@@ -134,12 +133,7 @@ nav a {
 
 .adventure {
     border: 1px solid rgb(0 0 0 / 0.1);
-    justify-content: center
-}
-
-section, .history, .adventure, .image-gallery {
-    width: 1500px;
-    max-width: 100%;
+    justify-content: center;
 }
 
 section img {
@@ -215,6 +209,7 @@ figure {
 
 .image-gallery figure {
     text-align: center;
+    top: 5px;
     flex: 1 1 20%;
     max-width: 20%;
 }

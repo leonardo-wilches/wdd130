@@ -1,7 +1,7 @@
 :root {
   --primary-color: #2364AA;
   --secondary-color: #ffffff;
-  --accent1-color: #FEC601;
+  --accent1-color: #01feed;
   --accent2-color: #eeff00;
   --heading-font: "Comfortaa", sans-serif;
   --body-font: "Roboto", sans-serif;
@@ -109,7 +109,7 @@ nav ul {
   bottom: 5%;
   left: 48%;
   transform: translateX(-50%);
-  background: var(--accent1-color);
+  background: var(--accent2-color);
   opacity: 0.9;
   padding: 0.5rem;
   text-align: center;

@@ -1,6 +1,6 @@
 :root {
     --primary-color: #2364AA;
-    --secunday-color: #73BFB8;
+    --secunday-color: #ddd;
     --accent1-color: #FEC601;
     --accent2-color: #EA7317;
     --heading-font: "Comfortaa", sans-serif;
@@ -31,6 +31,16 @@ h1, h2 {
 nav, p, section, article {
   margin: 16px;
   padding: 8px;
+  
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-color);
+  font-size: 20px;
+  max-width: 1000px;
+  padding: 1rem;
+  text-align: left;
 }
 
 h1 {
@@ -39,13 +49,41 @@ h1 {
   width: 100%;
   padding: 16px;
   text-align: center;
-  opacity: 0.7;
-  background-color: var(--accent1-color);
-  color: #fff;
+  opacity: 1.0;
+  background-color: var(--primary-color);
+  color: var(--secunday-color);
+}
+
+h2 {
+  max-width: auto;
+  padding: 16px;
+  text-align: center;
+  opacity: 1.0;
+  background-color: var(--primary-color);
+  color: var(--secunday-color);
 }
 
 article {
-    position: absolute;
+  position: absolute;
+}
+
+.hero article {
+  position: absolute;
+  width: 90%;
+  bottom: 5%;
+  left: 48%;
+  transform: translateX(-50%);
+  background: var(--accent1-color);
+  opacity: 0.9;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
+  margin-left: 3rem;
+  padding: 15px;
 }
 
 .socialmedia a {
@@ -53,7 +91,7 @@ article {
 }
 
 .hero {
-  position: absolute;
+  position: relative;
 }
 
 .hero img {
@@ -69,18 +107,7 @@ article {
 
 .socialmedia {
     position: absolute;
-    right: 1rem;
     display: flex;
     gap: 1rem;
     margin: 0;
-}
-
-.socialmedia a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    width: auto;
-    height: auto;
 }

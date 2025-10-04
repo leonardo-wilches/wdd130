@@ -79,13 +79,6 @@ article {
   text-align: center;
 }
 
-.hero article img {
-  float: right;
-  width: 125px;
-  margin-left: 3rem;
-  padding: 15px;
-}
-
 .socialmedia a {
     text-decoration: none;
 }

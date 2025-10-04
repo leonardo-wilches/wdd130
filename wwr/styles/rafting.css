@@ -23,6 +23,10 @@ header, main, footer {
   margin: 0 auto;
 }
 
+header img {
+  width: 150px;
+}
+
 h1, h2 {
   font-family: var(--heading-font);
   background-color: var(--primary-color);
@@ -41,8 +45,8 @@ p {
 }
 
 nav, p, section, article {
-  margin: 16px;
-  padding: 8px;
+  margin: 16px 0;
+  padding: 0;
 }
 
 h1 {
@@ -69,6 +73,11 @@ footer {
 footer img {
   width: 40px;
   margin: 0 8px;
+}
+
+nav ul {
+  padding-left: 20px;
+  margin: 0;    
 }
 
 .hero article {

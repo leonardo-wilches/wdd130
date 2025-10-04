@@ -53,7 +53,7 @@ article {
 }
 
 .hero {
-  position: relative;
+  position: absolute;
 }
 
 .hero img {
@@ -67,3 +67,20 @@ article {
   width: 125px;
 }
 
+.socialmedia {
+    position: absolute;
+    right: 1rem;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+}
+
+.socialmedia a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+}

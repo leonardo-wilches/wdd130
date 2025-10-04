@@ -96,6 +96,7 @@ article {
 .hero article img {
   float: right;
   width: 125px;
+  width: 20;
 }
 
 .socialmedia {
@@ -103,4 +104,5 @@ article {
     display: flex;
     gap: 1rem;
     margin: 0;
+    width: 40px;
 }

@@ -26,21 +26,25 @@ header, main, footer {
 h1, h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
-}
-
-nav, p, section, article {
-  margin: 16px;
-  padding: 8px;
-  
+  padding: 16px;
+  text-align: center;
+  opacity: 1.0;
+  background-color: var(--primary-color);
+  color: var(--secunday-color);
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--body-font);
   color: var(--primary-color);
   font-size: 20px;
   max-width: 1000px;
   padding: 1rem;
   text-align: left;
+}
+
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
 }
 
 h1 {
@@ -54,16 +58,27 @@ h1 {
   color: var(--secunday-color);
 }
 
-h2 {
-  padding: 16px;
-  text-align: center;
-  opacity: 1.0;
-  background-color: var(--primary-color);
-  color: var(--secunday-color);
-}
-
 article {
   position: absolute;
+}
+
+.socialmedia a {
+  text-decoration: none;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
 }
 
 .hero article {
@@ -76,32 +91,4 @@ article {
   opacity: 0.9;
   padding: 0.5rem;
   text-align: center;
-}
-
-.socialmedia a {
-    text-decoration: none;
-}
-
-.hero {
-  position: relative;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.hero article img {
-  float: right;
-  width: 125px;
-  width: 20;
-}
-
-.socialmedia {
-    position: absolute;
-    display: flex;
-    gap: 1rem;
-    margin: 0;
-    width: 40px;
 }

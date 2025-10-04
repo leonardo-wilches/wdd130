@@ -1,6 +1,6 @@
 :root {
     --primary-color: #2364AA;
-    --secunday-color: #ddd;
+    --secondary-color: #ddd;
     --accent1-color: #FEC601;
     --accent2-color: #EA7317;
     --heading-font: "Comfortaa", sans-serif;
@@ -15,7 +15,7 @@
 
 body {
   font-family: var(--body-font);
-  color: var(--accent1-color);
+  color: var(--primary-color);
 }
 
 header, main, footer {
@@ -25,12 +25,10 @@ header, main, footer {
 
 h1, h2 {
   font-family: var(--heading-font);
-  color: var(--primary-color);
-  padding: 16px;
-  text-align: center;
-  opacity: 1.0;
   background-color: var(--primary-color);
-  color: var(--secunday-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 16px;
 }
 
 p {
@@ -55,10 +53,25 @@ h1 {
   text-align: center;
   opacity: 1.0;
   background-color: var(--primary-color);
-  color: var(--secunday-color);
+  color: var(--secondary-color);
 }
 
 article {
+  position: absolute;
+}
+
+footer {
+  text-align: left;
+  color: var(--secondary-color);
+  border-top: 2px solid var(--primary-color);
+}
+
+footer img {
+  width: 40px;
+  margin: 0 8px;
+}
+
+.hero article {
   position: absolute;
 }
 

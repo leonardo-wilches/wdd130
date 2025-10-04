@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #2364AA;
-    --secondary-color: #ddd;
-    --accent1-color: #FEC601;
-    --accent2-color: #EA7317;
-    --heading-font: "Comfortaa", sans-serif;
-    --body-font: "Roboto", sans-serif;
+  --primary-color: #2364AA;
+  --secondary-color: #ddd;
+  --accent1-color: #FEC601;
+  --accent2-color: #EA7317;
+  --heading-font: "Comfortaa", sans-serif;
+  --body-font: "Roboto", sans-serif;
 }
 
 * {

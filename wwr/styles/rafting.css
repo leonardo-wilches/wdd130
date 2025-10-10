@@ -71,12 +71,13 @@ p {
   font-family: var(--body-font);
   color: var(--primary-color);
   font-size: 1.2rem;
-  max-width: 1000px;
-  padding: 1rem;
+  padding: 1.5rem;
   text-align: left;
+  margin: 1rem;
+  display: flex;
 }
 
-nav, p, section, article {
+nav, section, article {
   margin: 16px 0;
 }
 
@@ -91,19 +92,11 @@ h1 {
   color: var(--secondary-color);
 }
 
-article {
-  position: absolute;
-}
-
 section img {
   display: inline;
   margin: 0 auto;
   padding: 1rem;
   width: 200px;
-}
-
-section h2 {
-  margin-top: 1rem;
 }
 
 figure {
@@ -131,19 +124,11 @@ footer p {
   font-size: 1.2rem;
   text-align: center;
   margin: 0;
+  justify-content: center;
 }
 
 footer img {
   width: 38px;
-}
-
-nav ul {
-  padding-left: 20px;
-  margin: 0;    
-}
-
-.hero article {
-  position: absolute;
 }
 
 .socialmedia {
@@ -154,16 +139,13 @@ nav ul {
   margin: 0;
 }
 
-nav.socialmedia a{
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.3);
-  border-radius: 20%;
-  background-color: var(--secondary-color);
-}
-
 .socialmedia a {
   text-decoration: none;
   display: flex;
   justify-content: flex-end;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.3);
+  border-radius: 20%;
+  background-color: var(--secondary-color);
 }
 
 .hero {
@@ -183,8 +165,9 @@ nav.socialmedia a{
 
 .hero article img {
   float: right;
-  width: 200px;
+  width: 210px;
   padding: 15px;
+  margin-right: 1%;
 }
 
 .hero article {
@@ -192,8 +175,7 @@ nav.socialmedia a{
   bottom: 15%;
   background: var(--accent2-color);
   opacity: 0.9;
-  padding: 0.5rem;
-  text-align: center;
+  width: 90%;
 }
 
 .history {

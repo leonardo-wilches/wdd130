@@ -19,7 +19,8 @@ body {
 }
 
 header, main, footer {
-  width: 840px;
+  /* width: 840px; */
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -30,15 +31,15 @@ header {
   position: relative;
   background-color: var(--primary-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  max-width: 1500px;
   padding: 0.5rem;
   gap: 1rem;
   margin: 1rem auto;
 }
 
 header img {
-  width: 120px;
+  width: 150px;
   height: auto;
+  margin: auto;
 }
 
 nav {
@@ -76,7 +77,7 @@ p {
 
 nav, p, section, article {
   margin: 16px 0;
-  padding: 0;
+  padding: auto;
 }
 
 h1 {
@@ -97,9 +98,12 @@ article {
 section img {
   display: inline;
   margin: 0 auto;
-  padding: auto;
+  padding: 1rem;
   width: 200px;
-  margin-bottom: 1rem;
+}
+
+section h2 {
+  margin-top: 1rem;
 }
 
 figure {
@@ -110,20 +114,27 @@ figure {
 }
 
 footer {
-  text-align: left;
   color: var(--secondary-color);
   border-top: 2px solid var(--primary-color);
+  background-color: var(--primary-color);
   position: relative;
   padding: 0.5rem 1rem;
   margin: 1rem auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+}
+
+footer p {
+  flex: 1;
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
 }
 
 footer img {
   width: 38px;
-  margin: 0 8px;
 }
 
 nav ul {
@@ -135,18 +146,37 @@ nav ul {
   position: absolute;
 }
 
+.socialmedia {
+  position: absolute;
+  right: 1rem;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+}
+
+nav.socialmedia a{
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.3);
+  border-radius: 20%;
+}
+
 .socialmedia a {
   text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .hero {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero img {
   display: block;
   width: 100%;
   height: auto;
+  margin-bottom: 1rem;
 }
 
 .hero article img {
@@ -156,10 +186,7 @@ nav ul {
 
 .hero article {
   position: absolute;
-  width: 90%;
-  bottom: 5%;
-  left: 48%;
-  transform: translateX(-50%);
+  bottom: 15%;
   background: var(--accent2-color);
   opacity: 0.9;
   padding: 0.5rem;
@@ -172,8 +199,7 @@ nav ul {
   align-items: center;
   justify-content: center;
   text-align: left;
-  padding: 1rem;
-  max-width: 1500px;
+  padding: rem;
   margin: 0 auto;
 }
 
@@ -200,7 +226,7 @@ nav ul {
 
 .image-gallery figcaption {
   padding: auto;
-  margin-bottom: 2px;
+  margin-bottom: 1rem;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   color: var(--primary-color);

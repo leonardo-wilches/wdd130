@@ -64,7 +64,7 @@ h1, h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
   text-align: center;
-  padding: 16px;
+  padding: 10px;
 }
 
 p {
@@ -222,4 +222,5 @@ footer img {
 
 .title {
   font-size: 30px;
+  margin-top: 0.8rem;
 }

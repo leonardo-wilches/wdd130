@@ -26,13 +26,13 @@ header, main, footer {
 
 header {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 1fr 3fr;
   align-items: center;
   position: relative;
   background-color: var(--primary-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0.5rem;
-  gap: 5rem;
+  gap: 1rem;
   margin: 1rem auto;
   margin-bottom: 0rem;
 }
@@ -158,6 +158,7 @@ nav ul {
 nav.socialmedia a{
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.3);
   border-radius: 20%;
+  background-color: var(--secondary-color);
 }
 
 .socialmedia a {

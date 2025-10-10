@@ -32,8 +32,9 @@ header {
   background-color: var(--primary-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0.5rem;
-  gap: 1rem;
+  gap: 5rem;
   margin: 1rem auto;
+  margin-bottom: 0rem;
 }
 
 header img {
@@ -52,7 +53,7 @@ nav {
 nav a {
   font-family: var(--heading-font);
   color: var(--secondary-color);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   padding: 1rem;
   text-decoration: none;
 	padding: 0;
@@ -82,11 +83,11 @@ nav, p, section, article {
 
 h1 {
   position: absolute;
-  top: 20px;
+  top: 12%;
   width: 100%;
   padding: 16px;
   text-align: center;
-  opacity: 1.0;
+  opacity: 0.9;
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }
@@ -176,12 +177,14 @@ nav.socialmedia a{
   display: block;
   width: 100%;
   height: auto;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 .hero article img {
   float: right;
-  width: 125px;
+  width: 200px;
+  padding: 15px;
 }
 
 .hero article {

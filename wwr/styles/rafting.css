@@ -270,7 +270,7 @@ fieldset {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  border: 1px solid rgb(0 0 0 / 0.2);
+  border: 1px transparent rgb(0 0 0 / 0.2);
   padding: 1rem;
 }
 
@@ -297,4 +297,21 @@ fieldset input, fieldset textarea, fieldset select {
 
 .map {
   flex: 1;
+}
+
+fieldset .radio-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+fieldset .radio-options {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset .checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }

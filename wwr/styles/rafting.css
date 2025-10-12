@@ -226,3 +226,8 @@ footer img {
   font-size: 30px;
   margin-top: 0.8rem;
 }
+
+.contact {
+  width: 1200px;
+  align-items: center;
+}

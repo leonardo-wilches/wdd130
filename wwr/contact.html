@@ -22,50 +22,56 @@
         </nav>
     </header>
     <main>
-        <h1 class="contact">Contact Us</h1>
-        <h2>Aqua Adventure Whitewater Rafting</h2>
-        <p>San Antonio, Chile</p>
-        <p>Phone: 999-999-9999</p>
-        <p>Email: <a href="mailto;">mail</a></p>
-        <div>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3355.8562146943677!2d-71.58300008901651!3d-33.66677244871305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2scl!4v1760234373892!5m2!1ses!2scl"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="contact">
+            <h1 class="contact">Contact Us</h1>
+            <h2 class="contact">Aqua Adventure Whitewater Rafting</h2>
+            <p>Rio Maipo</p>
+            <p>San Antonio, Chile</p>
+            <p>Phone: 999-999-9999</p>
+            <p>Email: <a href="mailto;">aqua.adventure@whitewaterrafting.com</a></p>
         </div>
-        <form>
-            <fieldset>
-                <div>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Placeholder"><br>
-                </div>
-                <div>
-                    <label for="useremail">Email:</label>
-                    <input type="email" id="useremail" name="useremail" placeholder="Placeholder">
-                </div>
-                <div>
-                    <p>Message Purpose</p>
+        <div class="contact-layout">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3355.8562146943677!2d-71.58300008901651!3d-33.66677244871305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2scl!4v1760234373892!5m2!1ses!2scl"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form>
+                <fieldset>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Placeholder"><br>
+                    </div>
+                    <div>
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail" placeholder="Placeholder">
+                    </div>
+                    <div class="redio-grop">
+                        <div class="radio-options"></div>
+                        <p>Message Purpose</p>
 
-                    <input type="radio" id="generalinquiry" name="messagepurpose" value="generalinquiry">
-                    <label for="generalinquiry">General Inquiry</label>
+                        <input type="radio" id="generalinquiry" name="messagepurpose" value="generalinquiry">
+                        <label for="generalinquiry">General Inquiry</label>
 
-                    <input type="radio" id="reservationquestion" name="messagepurpose" value="reservationquestion">
-                    <label for="reservationquestion">Reservation Question</label>
+                        <input type="radio" id="reservationquestion" name="messagepurpose" value="reservationquestion">
+                        <label for="reservationquestion">Reservation Question</label>
 
-                    <input type="radio" id="websitesuggestion" name="messagepurpose" value="websitesuggestion">
-                    <label for="websitesuggestion">Website Suggestion</label>
-                </div>
-                <div>
-                    <label for="message">List the places you have lived:</label><br>
-                    <textarea id="message" name="message" rows="4" placeholder="Type here"></textarea>
-                </div>
-                <div>
-                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                    <input type="checkbox" id="subscribe" name="subscribe"><br>
-                </div>
-                <button type="submit">Sumbit Quiz for Grading</button>
-            </fieldset>
-        </form>
+                        <input type="radio" id="websitesuggestion" name="messagepurpose" value="websitesuggestion">
+                        <label for="websitesuggestion">Website Suggestion</label>
+                    </div>
+                    <div>
+                        <label for="message">List the places you have lived:</label><br>
+                        <textarea id="message" name="message" rows="4" placeholder="Type here"></textarea>
+                    </div>
+                    <div>
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="subscribe" name="subscribe"><br>
+                    </div>
+                    <button type="submit">Get in Touch!</button>
+                </fieldset>
+            </form>
+        </div>
         <section class="adventure">
             <h2 class="title">We Are Here to Serve You</h2>
             <div class="image-gallery">

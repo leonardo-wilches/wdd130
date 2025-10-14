@@ -343,8 +343,10 @@ fieldset .checkbox-group {
 }
 
 .galery {
+  border: 1px solid rgb(0 0 0 / 0.1);
   display: grid;
   gap: 2rem;
+  padding-bottom: 3rem;
 }
 
 .item {
@@ -425,7 +427,6 @@ fieldset .checkbox-group {
   width: 100%;
   padding: 16px;
   text-align: center;
-  margin-top: 50px;
   margin-bottom: 15px;
   opacity: 0.9;
   background-color: var(--primary-color);
@@ -433,6 +434,7 @@ fieldset .checkbox-group {
 }
 
 .discover {
+  border: 1px solid rgb(0 0 0 / 0.1);
   display: grid;
   grid-template-columns: 2fr 3fr;
   font-size: 2rem;
@@ -479,7 +481,8 @@ fieldset .checkbox-group {
 }
 
 .btn-container {
-  margin-top: -3rem;
+  margin-top: -6rem;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
 }

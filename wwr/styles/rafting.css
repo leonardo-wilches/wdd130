@@ -327,7 +327,7 @@ fieldset .checkbox-group {
   width: 100%;
   height: auto;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: -5rem;
 }
 
 .home h1 {
@@ -347,6 +347,7 @@ fieldset .checkbox-group {
   display: grid;
   gap: 2rem;
   padding-bottom: 3rem;
+  margin-top: 2rem;
 }
 
 .item {
@@ -481,9 +482,6 @@ fieldset .checkbox-group {
 }
 
 .btn-container {
-  margin-top: -6rem;
-  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
 }
-

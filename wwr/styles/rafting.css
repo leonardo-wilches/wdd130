@@ -258,7 +258,9 @@ form {
 }
 
 label {
-  padding: 0.4rem 0rem 0.4rem;
+  display: block;          
+  margin-bottom: 0.4rem; 
+  padding: 0;  
 }
 
 input, textarea, select, button {
@@ -292,22 +294,24 @@ fieldset {
 .placeholder {
   display: grid;
   grid-template-columns: 1fr 3fr;
+  
 }
 
 fieldset input, fieldset  textarea, fieldset select {
   width: 100%;
+  font-family: var(--body-font);
+}
+
+fieldset {
+  border: none;
 }
 
 .contact-layout {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
-  margin: 1.5rem;
-}
-
-.map {
-  flex: 1;
+  margin: 1.5rem 0 1.5rem;
 }
 
 fieldset .radio-group {
@@ -317,7 +321,7 @@ fieldset .radio-group {
 
 fieldset .checkbox-group {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 10fr;
   align-items: center;
   padding: 1rem;
 }
@@ -329,8 +333,8 @@ fieldset .radio-item {
 }
 
 .home {
-  position: relative;
-  display: flex;
+  display: grid;
+  grid-template-columns: 4fr 3fr 1fr;
   justify-content: center;
   align-items: center;
 }

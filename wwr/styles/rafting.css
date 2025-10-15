@@ -367,8 +367,8 @@ fieldset .radio-item {
   border-radius: 20px 0 0 20px;
   box-shadow: 0 0 30px var(--primary-color);
   padding: 0;
-  -webkit-mask-image: linear-gradient(to right, black 80%, transparent 100%);
-  mask-image: linear-gradient(to right, black 80%, transparent 100%);
+  /* -webkit-mask-image: linear-gradient(to right, black 80%, transparent 100%); */
+  /* mask-image: linear-gradient(to right, black 80%, transparent 100%); */
 }
 
 .item .content {
@@ -398,8 +398,8 @@ fieldset .radio-item {
 
 .item:nth-child(3) img {
   border-radius: 0 20px 20px 0;
-  -webkit-mask-image: linear-gradient(to left, black 80%, transparent 100%);
-  mask-image: linear-gradient(to left, black 80%, transparent 100%);
+  /* -webkit-mask-image: linear-gradient(to left, black 80%, transparent 100%); */
+  /* mask-image: linear-gradient(to left, black 80%, transparent 100%); */
 }
 
 .content h3 {
@@ -447,8 +447,8 @@ fieldset .radio-item {
   margin: 0;
   padding: 0;
   object-fit: cover;
-  -webkit-mask-image: linear-gradient(to right, black 80%, transparent 100%);
-  mask-image: linear-gradient(to right, black 80%, transparent 100%);
+  /* -webkit-mask-image: linear-gradient(to right, black 80%, transparent 100%); */
+  /* mask-image: linear-gradient(to right, black 80%, transparent 100%); */
 }
 
 .btn {

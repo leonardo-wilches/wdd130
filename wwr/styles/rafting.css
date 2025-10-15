@@ -208,10 +208,12 @@ footer img {
   top: 5px;
   flex: 1 1 20%;
   max-width: 20%;
+  margin-bottom: 1rem;
 }
 
 .image-gallery figcaption {
-  margin-bottom: 1rem;
+  margin: 0;
+  padding: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   color: var(--primary-color);
@@ -242,6 +244,11 @@ h2.contact {
   padding: 0.2rem;
 }
 
+.contact a{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
 form {
   flex: 1;
   background-color: var(--secondary-color);
@@ -250,9 +257,15 @@ form {
   justify-content: center;
 }
 
+label {
+  padding: 0.4rem 0rem 0.4rem;
+}
+
 input, textarea, select, button {
   padding: .5rem;
-  width: 350px;
+  width: 400px;
+  border-radius: .5rem;
+  border: 1px solid rgb(0 0 0 / 50%);
 }
 
 button {
@@ -266,23 +279,22 @@ button {
 
 fieldset {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  border: 1px transparent rgb(0 0 0 / 0.2);
   padding: 1rem;
 }
 
-fieldset div {
+.radio-group p{
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
-fieldset label {
-  margin-bottom: 0.25rem;
+.placeholder {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 }
 
-fieldset input, fieldset textarea, fieldset select {
+fieldset input, fieldset  textarea, fieldset select {
   width: 100%;
 }
 
@@ -299,20 +311,21 @@ fieldset input, fieldset textarea, fieldset select {
 }
 
 fieldset .radio-group {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-}
-
-fieldset .radio-options {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 }
 
 fieldset .checkbox-group {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
   align-items: center;
-  gap: 0.5rem;
+  padding: 1rem;
+}
+
+fieldset .radio-item {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  align-items: center;
 }
 
 .home {

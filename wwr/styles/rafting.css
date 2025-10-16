@@ -475,3 +475,131 @@ fieldset .radio-item {
   display: flex;
   justify-content: center;
 }
+
+.trips {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  grid-row: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  border: 1px solid rgb(0 0 0 / 0.1);
+}
+
+.border {
+  margin-top: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.1);
+  padding-bottom: 1rem;
+}
+
+.trips h1{
+  width: 1200px;
+  position: relative;
+}
+
+.trip-h2{
+  width: 1200px;
+  position: relative;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.9;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.trips-equipment {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  gap: 0;
+  margin: 0;
+}
+
+.trips-equipment p{
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  gap: 0;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.trips-equipment h3{
+  margin: 1rem;
+}
+
+.trips-equipment div:hover {
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+  border-radius: 10px;
+}
+
+.trips img {
+  width: 450px;
+}
+
+.trips div {
+  width: 500px;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.trips div:hover {
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+}
+
+.btn-trip {
+  width: auto;
+  display: inline-block;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1;
+  border: 1px solid transparent;
+}
+
+.btn-trip:hover {
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+  border: 1px solid rgb(0 0 0 / 100%);
+}
+
+.rafting-equipment {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  padding: 0;
+}
+
+.equipment {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.equipment img{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  gap: 1rem;
+}
